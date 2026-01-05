@@ -1,0 +1,938 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+
+header{
+      
+    position: sticky;
+    top:0;
+
+}
+.box{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #007ac2;
+    color: white;   
+}
+
+.logo{
+
+    padding: 10px  20px;
+}
+.text{
+    padding: 0  20px;
+    font-size: clamp (0.6rem,2.5vw,0.9rem);
+    text-align: center;
+}
+
+.bar{
+
+    color: #fff;
+    padding: 0  30px;
+    display: none;
+    font-size: 20px;
+}
+
+.navb{
+
+    
+    flex-wrap: wrap;
+    background-color: #007ac2;
+}
+.navb ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #007ac2;
+    
+}
+
+.navb ul li {
+
+    list-style: none;
+}
+.navb ul li a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+.navb ul li a:hover{
+        
+    
+    background-color: #1491d0;
+}
+
+.imfor{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #898989;
+   
+}
+.imcom{
+
+    width: 1200px;
+    height: 550px;
+    display: flex; 
+    flex-wrap: wrap;
+     
+}
+.imcom1{
+
+    width: 600px;
+    height: 550px;
+    flex-wrap: wrap;
+    background-color: #1491d0;
+    
+}
+.thailogo{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.thailogo1{
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+
+}
+.thailogo1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imcom2{
+    width: 600px;
+    height: 550px;    
+}
+
+.imcom2  img{
+    width: 100%;
+    height: 100%;
+}
+.boxy{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px  10px;
+}
+.card1{
+
+    width: 220px;
+    height: 119px;    
+}
+.card2{
+
+    width: 220px;
+    height: 119px;    
+}
+.card3{
+
+    width: 220px;
+    height: 119px;   
+}
+.card4{
+
+    width: 220px;
+    height: 119px;    
+}
+.carimg{
+        
+    width: 220px;
+    height: 119px;
+    background-color: aqua;
+    background-size: cover;   
+}
+.cat{
+
+    width: 100%;
+    height: auto;
+}
+.boxy1{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxy2{
+
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+   
+}
+.tom1{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.van-container{
+
+    width: 950px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+   
+      
+}
+.contom{
+
+    width: 170px;
+    height: 208px;
+    margin: 10px 0; 
+   
+}
+.logothai{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logothai img{
+
+    width: 90px;
+    height: 90px;
+    padding: 5px 0;
+    
+}
+ .title-type{
+
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color: #45677a;
+    text-align: center;
+    font-size: 26px;
+    justify-content: center;
+    font-family: 'Kanit';
+}
+.desc-type{
+
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    color: #9b9797;
+    font-family: 'Kanit';
+    
+}
+
+.text1{
+    width: 750px;
+    height: 180px;   
+   
+}
+.text1 h2{
+       
+    font-weight: 400;
+    font-family: 'Kanit';
+    text-align: center;
+    padding: 10px 0;
+}
+.text1 p{
+
+    font-size: clamp(0.7rem,2.5vw,18px);
+    font-weight: 600;
+    color: #898989;
+    font-family: 'Kanit';
+    text-align: center;
+}
+
+.main{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    padding: 10px  0;
+    
+   
+}
+
+.contome1{
+
+    width: 300px;
+    height: auto;
+    padding: 10px  0;
+    border-right: 2px solid #898989;
+}
+.contome1 .pic{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contome1 .pictext{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.contome1 .pictext h3{
+
+    font-family: 'Kanit';
+
+
+}
+.button-link {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.button-link a:link, a:visited {
+
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px solid #898989;
+    text-decoration: none;
+    font-family: 'Kanit';
+    
+}
+.contome2{
+
+    width: 300px;
+    height: auto;
+    padding: 10px  0;
+   
+}
+.contome2 .pic{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contome2 .pictext{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.contome2 .pictext h3{
+
+    font-family: 'Kanit';
+
+}
+
+.button-link02 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.button-link02 a:link, a:visited {
+
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px solid #898989;
+    text-decoration: none;
+    font-family: 'Kanit';
+    
+}
+.contome3{
+
+    width: 300px;
+    height: auto;
+    padding: 10px  0;
+    border-left: 2px solid #898989;
+}
+
+.contome3 .pic{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contome3 .pictext{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.contome3 .pictext h3{
+
+    font-family: 'Kanit';
+
+}
+.button-link03 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.button-link03 a:link, a:visited {
+
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px solid #898989;
+    text-decoration: none;
+    font-family: 'Kanit';
+    
+}
+
+.reviwe{
+
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.reviwe-text{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.reviwe-text h3{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Kanit';
+
+   
+}
+.reviwe-container{
+
+    width: 850px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    gap: 10px;
+    padding: 10px;
+    
+   
+    
+}
+.cardimages{
+
+    width: 200px;
+    height: 250px;
+    border: 2px solid #898989;
+   
+}
+
+.cardimages img{
+
+    width: 100%;
+    height:  100%;   
+}
+
+
+.imformaintion{
+
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-wrap: wrap;   
+}
+.headertext{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+}
+
+.headertext h3{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.tomp{
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-bottom: 10px 0;
+    
+}
+.boxx0{
+
+    width: 100%;
+    height: auto;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px  10px;
+    gap:10px;
+   
+    
+   
+}
+.boxx1{
+
+    width: 270px;
+    height: 300px;
+    border: 2px solid #898989;
+   
+}
+.boxx1 img{
+
+    width: 100%;
+    height: 100%;
+}
+.boxx2{
+
+    width: 270px;
+    height: 300px;
+    border: 2px solid #898989;
+ 
+}
+.boxx2 img{
+
+    width: 100%;
+    height: 100%;
+}
+.boxx3{
+
+    width: 270px;
+    height: 300px;  
+    border: 2px solid #898989;
+   
+}
+.boxx3 img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.buttom{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.boxx4{
+
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Kanit';
+    border: 2px solid #898989;
+}
+.boxx4 h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Kanit';
+
+}
+
+
+footer{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    padding: 5px  5px;
+    background-color: #007ac2;
+    gap: 5px;
+   
+}
+
+.menu-box{
+
+    width:  325px;
+    height: 150px;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    background-color: #f3efef;
+    border-radius: 5px  5px;   
+}
+
+.menu-box1{
+    width:  325px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    background-color: #f3efef;
+    border-radius: 5px  5px;   
+}
+
+.menu-box1  .submenu{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.menu-box1 .submenu ul {
+
+    list-style: none;
+    padding: 0  10px;
+}
+.menu-box1 .submenu ul li a{
+
+    text-decoration: none;
+}
+
+.menuthai-box2{
+    width:  325px;
+    height: 150px;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    background-color: #f3efef;
+    border-radius: 5px  5px;   
+   
+}
+.box22 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: 'Kanit';
+}
+
+.box222{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop1{
+       width: 50px;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 30px;
+       padding: 0  5px;
+      
+}
+.pop2{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #c52626;
+    padding: 0  10px;
+  
+}
+.pop3{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: hsl(212, 88%, 60%);
+    padding: 0  10px;
+    
+}
+.pop4{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: hwb(110 24% 47%);
+   
+
+}
+.menu-thai{
+    width:  325px;
+    height: 150px;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    background-color: #f3efef;
+    border-radius: 5px  5px;   
+}
+
+.menu-text{
+
+    width: 100%;
+    height: 30px; 
+    
+}
+.menu-text p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3px;
+    font-family: 'Kanit';
+    flex-wrap: wrap;
+}
+.menu-con{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+}
+.maxlogo{
+
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    padding: 0 2px;
+   
+
+}
+
+.maxlogo  img{
+
+    width: 100%; 
+    height: 100%;
+    
+    
+}
+.socil{
+
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    
+}
+.qr{
+
+    width: 120px;
+    height: 80px;
+    padding: 2px;
+    
+}
+.qr img{
+    width: 100%;
+    height: 100%;
+}
+.tom1{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.van-container{
+
+    width: 950px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-wrap: wrap;   
+}
+.contom{
+
+    width: 170px;
+    height: 208px;
+   
+}
+.logothai{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.logothai img{
+
+    width: 90px;
+    height: 90px;
+    
+}
+.title-type{
+
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color: #45677a;
+    text-align: center;
+    font-size: 26px;
+    justify-content: center;
+    font-family: 'Kanit';
+}
+.desc-type{
+
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    color: #9b9797;
+    
+}
+
+
+@media (max-width:1068px){
+  
+    .contome1{  border-right:none;  }
+    .contome3{  border-left:none;  }
+      
+
+}
+@media (max-width:786px) {
+
+    .text{
+        display: none;
+    }
+
+    .bar{
+
+        display: block;
+    }
+    .navb{
+        width: 100%;
+        display: none;
+    }
+    .navb ul {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+       
+    }
+
+    .navb ul li{
+        
+        text-align: center;
+        display: block;
+        
+    }
+
+    .navb ul li a{
+        width: 100%;
+        padding: .5rem 1rem;
+    
+    }
+    .navb.active {
+        display: flex;
+    }
+    
+    .contome1{  border-right:none;  }
+    .contome3{  border-left:none;  }
+    
+}
+
+
+  
